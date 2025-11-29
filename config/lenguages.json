@@ -1,0 +1,44 @@
+{
+  "languages": {
+    "es": {
+      "name": "Spanish",
+      "whisper_code": "es",
+      "emergency_phrases": [
+        "ayuda", "emergencia", "ambulancia", "policía", "fuego",
+        "accidente", "herido", "sangrando", "no puedo respirar"
+      ]
+    },
+    "ast": {
+      "name": "Asturian",
+      "whisper_code": "ast",
+      "emergency_phrases": [
+        "ayuda", "emerxencia", "ambulancia", "policía", "fueu",
+        "accidente", "manzáu", "sangrando", "nun puedo respirar"
+      ]
+    },
+    "ar": {
+      "name": "Arabic", 
+      "whisper_code": "ar",
+      "emergency_phrases": [
+        "مساعدة", "طوارئ", "إسعاف", "شرطة", "حريق",
+        "حادث", "جريح", "ينزف", "لا أستطيع التنفس"
+      ]
+    },
+    "gn": {
+      "name": "Guarani",
+      "whisper_code": "gn", 
+      "emergency_phrases": [
+        "pytyvõ", "emergencia", "ambulancia", "policía", "tata",
+        "accidente", "oñemongu'e", "osẽva sangre", "ndakatúi respira"
+      ]
+    },
+    "fr": {
+      "name": "French",
+      "whisper_code": "fr",
+      "emergency_phrases": [
+        "aide", "urgence", "ambulance", "police", "feu",
+        "accident", "blessé", "saignant", "je ne peux pas respirer"
+      ]
+    }
+  }
+}

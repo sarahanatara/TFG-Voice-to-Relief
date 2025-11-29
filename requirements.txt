@@ -1,0 +1,36 @@
+# Procesamiento de audio
+librosa>=0.10.0
+soundfile>=0.12.0
+audiomentations>=0.31.0
+noisereduce>=2.0.0
+pyroomacoustics>=0.7.0
+
+# Machine Learning
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+accelerate>=0.20.0
+peft>=0.4.0
+
+# Evaluación
+jiwer>=2.5.0
+evaluate>=0.4.0
+
+# Análisis de datos
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Utilidades
+tqdm>=4.65.0
+pathlib>=1.0.0
+scikit-learn>=1.2.0
+
+# Para notebooks
+jupyter>=1.0.0
+ipywidgets>=8.0.0

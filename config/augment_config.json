@@ -1,0 +1,36 @@
+{
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "duration_range": [1.0, 10.0]
+  },
+  "augmentation": {
+    "n_variants_per_file": 25,
+    "snr_levels": {
+      "clean": [30, 40],
+      "low_noise": [20, 30],
+      "medium_noise": [10, 20], 
+      "high_noise": [0, 10],
+      "extreme_noise": [-5, 5]
+    },
+    "emergency_scenarios": {
+      "street_accident": ["trafico", "sirena", "gritos", "multitud"],
+      "home_emergency": ["telefono", "tv", "electrodomesticos", "voces"],
+      "public_space": ["musica", "multitud", "sirena_lejana", "viento"],
+      "nature_emergency": ["viento_fuerte", "lluvia", "truenos", "animales"]
+    },
+    "effects": {
+      "reverb_prob": 0.4,
+      "pitch_shift_prob": 0.3,
+      "time_stretch_prob": 0.2,
+      "compression_prob": 0.3,
+      "telephone_effect_prob": 0.2,
+      "packet_loss_prob": 0.1
+    }
+  },
+  "data_split": {
+    "train_ratio": 0.85,
+    "val_ratio": 0.10,
+    "test_ratio": 0.05
+  }
+}
